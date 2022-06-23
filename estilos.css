@@ -2,8 +2,12 @@
     font-family: "Arial";
 }
 
+body {
+    margin: 0;
+}
+
 div {
-    border: 1px solid #ddd;
+    
     border-color: black;
     background-color:bisque;
 }
@@ -14,6 +18,24 @@ div > .parrafos {
 }
 
 div > .titulo {
+    
     text-align: center;
     color: #333;
+}
+
+header > .cabecera {
+  
+    border-color: white;
+    background-color: #33a !important;
+    text-align: center;
+}
+
+.cabecera {
+    font-weight: bold;
+    font-size: larger;
+    font-family: "Arial";
+    margin: 0;
+    padding: 0.5em;
+    
+    color: white;
 }

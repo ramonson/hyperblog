@@ -1,0 +1,19 @@
+*{
+    font-family: "Arial";
+}
+
+div {
+    border: 1px solid #ddd;
+    border-color: black;
+    background-color:bisque;
+}
+div > .parrafos {
+    margin-left: 20px;
+    text-align: left;
+    
+}
+
+div > .titulo {
+    text-align: center;
+    color: #333;
+}
